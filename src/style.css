@@ -14,9 +14,28 @@ html {
   --imp-text-color: #c770f0;
 }
 
+
 .purple {
   color: var(--imp-text-color) !important;
+  text-shadow:
+      0 0 6px rgba(91, 0, 95, 0.92),
+      0 0 30px rgba(184, 16, 184, 0.159),
+      0 0 12px rgba(89, 2, 100, 0.52),
+      0 0 21px rgba(85, 11, 76, 0.92),
+      0 0 34px rgba(82, 2, 75, 0.78),
+      0 0 54px rgba(83, 2, 90, 0.92);
 }
+
+to {
+  text-shadow:
+      0 0 6px rgba(91, 0, 95, 0.92),
+      0 0 30px rgba(184, 16, 184, 0.159),
+      0 0 12px rgba(89, 2, 100, 0.52),
+      0 0 21px rgba(85, 11, 76, 0.92),
+      0 0 34px rgba(82, 2, 75, 0.78),
+      0 0 54px rgba(83, 2, 90, 0.92);
+  }
+
 
 /* --------- */
 /*  Preloader */

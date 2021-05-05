@@ -68,11 +68,18 @@ function NavBar() {
                 <i className="fab fa-codepen"></i> Projects
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/blog"
+                onClick={() => updateExpanded(false)}
+              >
+                <i className="fas fa-blog"></i> Blogs
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/DatBugg"
-                target="_blank"
                 className="fork-btn-inner"
               >
                 <i className="fas fa-code-branch"></i>{" "}

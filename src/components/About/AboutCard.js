@@ -29,6 +29,9 @@ function AboutCard() {
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i> Series, Movies, Manga and Anime
             </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> Read Fantasy Books
+            </li>
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>

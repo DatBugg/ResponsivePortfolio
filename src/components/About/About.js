@@ -39,10 +39,7 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-cplusplus-line" />
           <Techstack iconName="devicon-python-plain-wordmark " />
-          <Techstack iconName="cib-pytorch" />
-          <Techstack iconName="cib-tensorflow" />
           <Techstack iconName="devicon-javascript-plain " />
           <Techstack iconName="devicon-nodejs-plain-wordmark " />
           <Techstack iconName="devicon-express-original-wordmark" />
@@ -59,7 +56,6 @@ function About() {
           <Techstack iconName="cib-visual-studio-code" />
           <Techstack iconName="cib-anaconda" />
           <Techstack iconName="cib-postman" />
-          <Techstack iconName="cib-zeit" />
           <Techstack iconName="cib-heroku" />
         </Row>
         <Github />
