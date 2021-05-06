@@ -1,9 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Tilt from "react-parallax-tilt";
 
 function Home2() {
   return (
@@ -42,9 +40,6 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
           </Col>
         </Row>
         <Row>
@@ -52,6 +47,9 @@ function Home2() {
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
+            </p>
+            <p>
+              On <span className="purple">Discord </span>
             </p>
           </Col>
         </Row>

@@ -33,6 +33,22 @@ function Projects() {
               site="medium.com"
             />
           </Col>
+          <Col md={4} className="blog-card">
+            <BlogCard
+              imgPath={plant}
+              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
+              title="Plant AI"
+              site="medium.com"
+            />
+          </Col>
+          <Col md={4} className="blog-card">
+            <BlogCard
+              imgPath={plant}
+              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
+              title="Plant AI"
+              site="medium.com"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
