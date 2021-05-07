@@ -21,6 +21,8 @@ function Footer() {
               <a
                 href="https://github.com/DatBugg"
                 style={{ color: "white" }}
+                target="_blank"
+                rel="noreferrer"
               >
                 <i className="fab fa-github"></i>
               </a>
@@ -29,6 +31,8 @@ function Footer() {
               <a
                 href="https://twitter.com/DatBugg"
                 style={{ color: "white" }}
+                target="_blank"
+                rel="noreferrer"
               >
                 <i className="fab fa-twitter"></i>
               </a>
@@ -37,6 +41,8 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/gonzalo-galante-138762103/"
                 style={{ color: "white" }}
+                target="_blank"
+                rel="noreferrer"
               >
                 <i className="fab fa-linkedin-in"></i>
               </a>
@@ -45,6 +51,8 @@ function Footer() {
               <a
                 href="https://www.instagram.com/datbugg/"
                 style={{ color: "white" }}
+                target="_blank"
+                rel="noreferrer"
               >
                 <i className="fab fa-instagram"></i>
               </a>

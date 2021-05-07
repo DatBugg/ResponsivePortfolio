@@ -10,32 +10,38 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi World, I am <span className="purple">Gonzalo Galante </span>
-            from <span className="purple"> Buenos Aires, Argentina.</span>
+            from <span className="purple"> Argentina.</span>
             <br />
             <br />
             <br />
-            I love programming, but I also have other passions!
+            Some of my hobbies and passions
           </p>
           <ul>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Playing Games
+              <i class="fas fa-code"></i> Coding
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Build Keyboards
+              <i class="fas fa-gamepad"></i> Playing Games
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Music
+              <i class="fas fa-keyboard"></i> Build my own Keyboards
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Series, Movies, Manga and Anime
+              <i class="fas fa-headphones-alt"></i> Music
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Read Fantasy Books
+              <i class="fas fa-video"></i> Series, Movies, Manga and Anime
+            </li>
+            <li className="about-activity">
+              <i class="fas fa-book"></i> Read Fantasy Books
+            </li>
+            <li className="about-activity">
+              <i class="fas fa-microchip"></i> New Technologies
             </li>
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "Never stop playing!"{" "}
+            "Technology is a <span className="purple"> game </span> that I will never stop playing..."{" "}
           </p>
           <footer className="blockquote-footer">DatBugg</footer>
         </blockquote>

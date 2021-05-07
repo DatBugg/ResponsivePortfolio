@@ -36,20 +36,20 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          <strong className="purple">Skills </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-python-plain-wordmark " />
           <Techstack iconName="devicon-javascript-plain " />
           <Techstack iconName="devicon-nodejs-plain-wordmark " />
           <Techstack iconName="devicon-express-original-wordmark" />
           <Techstack iconName="devicon-react-original-wordmark" />
-          <Techstack iconName="devicon-mongodb-plain-wordmark" />
           <Techstack iconName="devicon-git-plain-wordmark" />
           <Techstack iconName="devicon-bootstrap-plain-wordmark" />
+          <Techstack iconName="devicon-django-line" />
+          <Techstack iconName="devicon-docker-plain" />
         </Row>
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Tools</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-linux-plain" />
@@ -57,6 +57,7 @@ function About() {
           <Techstack iconName="cib-anaconda" />
           <Techstack iconName="cib-postman" />
           <Techstack iconName="cib-heroku" />
+          <Techstack iconName="devicon-linux-plain" />
         </Row>
         <Github />
       </Container>

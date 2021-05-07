@@ -13,29 +13,32 @@ function Home2() {
             Let me tell you a little about Myself
             </h1>
             <p className="home-about-body">
-              I fell in love with programming
-              <br />
-              <br />I am fluent in science like
+              I fell in love with 
               <i>
-                <b className="purple"> Python and Javascript. </b>
+                <b className="purple"> Programming. </b>
+              </i>
+              <br />
+              <br />I recently finished my studies as a
+              <i>
+                <b className="purple"> Data Scientist. </b>
               </i>
               <br />
               <br />
               My current focus is on &nbsp;
               <i>
                 <b className="purple">
-                  Big Data, Machine Learning and ELT
+                  Data Engineer, Big Data and ETL.
                 </b>
               </i>
               <br />
               <br />
-              In my free time I also apply my passion to programming studying 
+              In my free time I also learn about
               <i>
-                <b className="purple"> full-stack</b>
+                <b className="purple"> Linux (Arch)</b>
               </i>
-                &nbsp; like
+                &nbsp; and
               <i>
-                <b className="purple"> Node.js and React.js</b>
+                <b className="purple"> Full-Stack</b>
               </i>
             </p>
           </Col>
@@ -47,9 +50,6 @@ function Home2() {
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
-            </p>
-            <p>
-              On <span className="purple">Discord </span>
             </p>
           </Col>
         </Row>
