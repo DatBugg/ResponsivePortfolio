@@ -4,8 +4,8 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
+import arch from "../../Assets/Projects/arch.png";
+import corne from "../../Assets/Projects/corne.png";
 
 function Projects() {
   return (
@@ -19,34 +19,20 @@ function Projects() {
         <Row style={{ justifyContent: "center" }}>
           <Col md={4} className="blog-card">
             <BlogCard
-              imgPath={algo}
+              imgPath={arch}
               link=""
-              title="Cracking Interview"
-              site="gitbook.com"
+              title="Arch-Linux"
+              description="Step-by-step implementation of Arch-Linux."
+              site="https://archlinux.org/"
             />
           </Col>
           <Col md={4} className="blog-card">
             <BlogCard
-              imgPath={plant}
+              imgPath={corne}
               link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
-              site="medium.com"
-            />
-          </Col>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={plant}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
-              site="medium.com"
-            />
-          </Col>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={plant}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
-              site="medium.com"
+              title="Corne Keyboard"
+              description="Mechanical keyboard assembly and layout customization."
+              site="https://github.com/DatBugg/Corne-Keyboard"
             />
           </Col>
         </Row>

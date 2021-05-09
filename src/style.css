@@ -173,8 +173,8 @@ to {
 }
 
 .logo {
-  height: 2.5em !important;
-  width: 4em !important;
+  height: 3em !important;
+  width: 5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -596,7 +596,7 @@ to {
   border: 1.7px solid rgba(13, 95, 94, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
+  border-radius: 2px !important;
   display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
