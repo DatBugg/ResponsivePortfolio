@@ -10,8 +10,6 @@
 ![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)
 ![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)
 <br/>
-![GitHub language count](https://img.shields.io/github/languages/count/datbugg/ResponsivePortfolio?style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/datbugg/ResponsivePortfolio?style=for-the-badge)
 
 <div align="center">
   <img alt="DHLogo" src="./src/Assets/logo.png"  width="300" height="100" />
