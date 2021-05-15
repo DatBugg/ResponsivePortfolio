@@ -48,6 +48,8 @@ function About() {
           <Techstack iconName="devicon-bootstrap-plain-wordmark" />
           <Techstack iconName="devicon-django-line" />
           <Techstack iconName="devicon-docker-plain" />
+          <Techstack iconName="devicon-mysql-plain" />
+          <Techstack iconName="devicon-amazonwebservices-original" />
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong>
@@ -58,7 +60,6 @@ function About() {
           <Techstack iconName="cib-anaconda" />
           <Techstack iconName="cib-postman" />
           <Techstack iconName="cib-heroku" />
-          <Techstack iconName="devicon-linux-plain" />
         </Row>
       </Container>
     </Container>

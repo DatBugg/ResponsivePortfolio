@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import scraping from "../../Assets/Projects/scraping.png";
 import dhws from "../../Assets/Projects/dhworkshop.png";
 import dhws1 from "../../Assets/Projects/dhworkshop1.png";
+import portfolio from "../../Assets/Projects/portfolio.png";
 
 function Projects() {
   return (
@@ -52,7 +53,7 @@ function Projects() {
           </Col>
           <Col md={8} className="project-card">
             <ProjectCard
-              imgPath={dhws1}
+              imgPath={portfolio}
               isBlog={false}
               title="Portfolio Web"
               description="This website is part of my learning project as a full-stack programmer using the Rect framework."

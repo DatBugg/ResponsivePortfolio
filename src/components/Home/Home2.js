@@ -49,7 +49,15 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">
+                <a 
+                  href="https://www.linkedin.com/in/gonzalo-galante-138762103/"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noreferrer"
+                > connect
+                </a>
+              </span> with me
             </p>
           </Col>
         </Row>

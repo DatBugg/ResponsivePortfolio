@@ -73,20 +73,18 @@ to {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgba(3, 77, 111, 0.959);
-  border-radius: 12px;
   box-shadow: 
-      0 0 6px rgba(106, 172, 196, 0.92),
-      0 0 30px rgba(124, 180, 206, 0.34),
-      0 0 12px rgba(128, 148, 57, 0.52),
+      0 0 6px rgba(176, 210, 223, 0.92),
+      0 0 30px rgba(109, 135, 146, 0.34),
+      0 0 12px rgba(155, 163, 126, 0.52),
       0 0 21px rgba(53, 121, 5, 0.57),
-      0 0 34px rgba(255, 255, 255, 0.78),
+      0 0 34px rgba(174, 153, 153, 0.78),
       0 0 54px rgba(7, 114, 118, 0.92);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
-  border-radius: 12px;
+  background: rgba(27, 84, 131, 0.911);
 }
 
 /* --------- */
@@ -523,7 +521,7 @@ to {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(43, 151, 184, 0.459) !important;
+  box-shadow: 0 3px 3px 2px rgba(135, 42, 112, 0.459) !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -568,10 +566,10 @@ to {
   border-color: #2d58b3d7 !important;
   box-shadow: 
       0 0 6px rgba(106, 172, 196, 0.92),
-      0 0 30px rgba(124, 180, 206, 0.34),
-      0 0 12px rgba(128, 148, 57, 0.52),
-      0 0 21px rgba(53, 121, 5, 0.57),
-      0 0 34px rgba(255, 255, 255, 0.78),
+      0 0 30px rgba(80, 143, 172, 0.34),
+      0 0 12px rgba(57, 148, 143, 0.52),
+      0 0 21px rgba(5, 46, 121, 0.57),
+      0 0 34px rgba(71, 122, 151, 0.78),
       0 0 54px rgba(7, 114, 118, 0.92);
 }
 .btn:focus {

@@ -29,16 +29,6 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/DatBugg"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
                 href="https://www.linkedin.com/in/gonzalo-galante-138762103/"
                 style={{ color: "white" }}
                 target="_blank"

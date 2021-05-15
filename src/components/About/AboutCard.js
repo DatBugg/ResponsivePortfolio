@@ -44,9 +44,8 @@ function AboutCard() {
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "Technology is a <span className="purple"> game </span> that I will never stop playing..."{" "}
+            "Never stop <span className="purple"> learning</span>."{" "}
           </p>
-          <footer className="blockquote-footer">DatBugg</footer>
         </blockquote>
       </Card.Body>
     </Card>
