@@ -20,7 +20,7 @@ function Projects() {
           Here are some projects that I am working on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={8} className="project-card">
             <ProjectCard
               imgPath={scraping}
               isBlog={false}
@@ -30,7 +30,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={8} className="project-card">
             <ProjectCard
               imgPath={dhws}
               isBlog={false}
@@ -41,13 +41,22 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={8} className="project-card">
             <ProjectCard
               imgPath={dhws1}
               isBlog={false}
               title="Properatis Analysis"
               description="Taking a data set of properatis with information on properties in Argentina, we proceed to an exhaustive cleaning and engineering of features to then apply machine learning techniques and be able to predict the value of a property based on certain features."
               link="https://github.com/DatBugg/WorkShop-Properati"
+            />
+          </Col>
+          <Col md={8} className="project-card">
+            <ProjectCard
+              imgPath={dhws1}
+              isBlog={false}
+              title="Portfolio Web"
+              description="This website is part of my learning project as a full-stack programmer using the Rect framework."
+              link="https://github.com/DatBugg/ResponsivePortfolio"
             />
           </Col>
         </Row>

@@ -23,7 +23,7 @@ function Projects() {
               link=""
               title="Arch-Linux"
               description="Step-by-step implementation of Arch-Linux."
-              site="https://archlinux.org/"
+              site="https://github.com/DatBugg/Corne-Keyboard"
             />
           </Col>
           <Col md={4} className="blog-card">

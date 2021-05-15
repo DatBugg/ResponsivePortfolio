@@ -38,6 +38,9 @@ function AboutCard() {
             <li className="about-activity">
               <i class="fas fa-microchip"></i> New Technologies
             </li>
+            <li className="about-activity">
+            <i class="fas fa-seedling"></i> Vegan Life
+            </li>
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
