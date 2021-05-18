@@ -39,7 +39,10 @@ function AboutCard() {
               <i class="fas fa-microchip"></i> New Technologies
             </li>
             <li className="about-activity">
-            <i class="fas fa-seedling"></i> Vegan Life
+              <i class="fas fa-seedling"></i> Vegan Life
+            </li>
+            <li className="about-activity">
+              <i class="fas fa-dumbbell"></i> Calisthenic
             </li>
           </ul>
 
