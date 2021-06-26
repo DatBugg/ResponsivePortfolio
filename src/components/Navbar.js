@@ -4,10 +4,10 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import "../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../Assets/logo.png";
 import cv from "../Assets/CV.pdf";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
+//import logo from "../Assets/logo.svg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -31,9 +31,9 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
+        {/*<Navbar.Brand href="/">
           <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+        </Navbar.Brand>*/}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -78,12 +78,13 @@ function NavBar() {
                 <i className="fas fa-blog"></i> Blogs
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            
+          </Nav>
+          <Nav.Item>
               <Button variant="primary" href={cv} target="_blank">
                 CV
               </Button>
             </Nav.Item>
-          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

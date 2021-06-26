@@ -1,12 +1,14 @@
 html {
 
+  --clr-neon: hsl(317 100% 54%);
+  --neon: rgb(88, 9, 117);
   --image-gradient: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.678),
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: hsl(317 100% 54%);
 }
 
 
@@ -42,8 +44,7 @@ to {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #032f4d;
-  background-image: url(./Assets/pre.svg);
+  background-image: url(./Assets/pre.svg), url(./Assets/bg-preloader.png);;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -67,39 +68,32 @@ to {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: linear-gradient(1turn,  #405201, #acfa0f77);
+  background: linear-gradient(1turn,  #32023c, #32023c);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(3, 77, 111, 0.959);
-  box-shadow: 
-      0 0 6px rgba(176, 210, 223, 0.92),
-      0 0 30px rgba(109, 135, 146, 0.34),
-      0 0 12px rgba(155, 163, 126, 0.52),
-      0 0 21px rgba(53, 121, 5, 0.57),
-      0 0 34px rgba(174, 153, 153, 0.78),
-      0 0 54px rgba(7, 114, 118, 0.92);
+  background: rgba(77, 15, 92, 0.959);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(27, 84, 131, 0.911);
+  background: rgba(83, 16, 106, 0.911);
 }
 
 /* --------- */
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background: linear-gradient(.5turn,  #09024351, #045668);
-  transition: all 1s ease-out 0s !important;
+  background: linear-gradient(0.5turn,  #09024351, #460d59);
+  transition: all 1s ease-out 1s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
 
 .navbar {
   position: fixed !important;
-  transition: all 1s ease-out 0s !important;
+  transition: all 3ms ease-out 0s !important;
   padding: 0rem 2rem !important;
   font-size: 0.8rem !important;
 }
@@ -176,9 +170,15 @@ to {
 }
 
 .navbar-nav .nav-link {
+  color: var(--clr-neon) !important;
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+  text-shadow: whitesmoke 0 0 0.05em !important;
+}
+
+.navbar-nav .nav-link:hover {
   color: white !important;
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  text-shadow: var(--clr-neon) 0 0 .15em !important;
 }
 
 .nav-link {
@@ -226,6 +226,55 @@ to {
 .navbar-nav .nav-item a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
+}
+
+
+.btn-primary {
+  margin-left: 2rem;
+  position: relative;
+  color: var(--clr-neon) !important;
+  background-color: transparent !important;
+  border: var(--clr-neon) 0.125em solid !important;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor;
+  box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em var(--clr-neon);
+  transition: background-color 100ms linear;
+}
+
+.btn-primary::before{
+  content: "";
+  position: absolute;
+  background-color: var(--clr-neon);
+  top: 70%;
+  left: 0;
+  width: 100%;
+  height: 100%;  
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1.5em);
+  opacity: 0.5;
+}
+
+.btn-primary::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 1em 0.5em var(--clr-neon);
+  opacity: 0;
+  transition: opacity 100ms linear;
+}
+
+.btn-primary:hover{
+  color: white !important;
+  border: whitesmoke 0.025em solid !important;
+  border-radius: 0.25em;
+}
+
+.btn-primary:hover::after{
+  opacity: 0.25;
 }
 
 /* --------- */
@@ -298,7 +347,7 @@ to {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #a96dc0 !important;
+  color: hsl(317 100% 54%) !important;
   font-weight: 600 !important;
   text-shadow:
       0 0 6px rgba(91, 0, 95, 0.92),
@@ -354,7 +403,7 @@ to {
 }
 
 .home-about-description {
-  color: white !important;
+  color: whitesmoke !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
@@ -442,7 +491,7 @@ to {
 /* Footer */
 /* --------- */
 .footer {
-  background: linear-gradient(1turn,  #09024351, #045668);
+  background: linear-gradient(1turn,  #09024351, #460d59);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -498,7 +547,7 @@ to {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(29, 129, 143, 0.459) !important;
+  box-shadow: 0 4px 5px 3px  rgba(194, 219, 252, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -554,28 +603,7 @@ to {
   border-radius: 0px !important;
 }
 
-.btn-primary {
-  color: #fff !important;
-  background-color: #095399 !important;
-  border-color: #088d8d !important;
-}
 
-.btn-primary:hover {
-  color: #fff !important;
-  background-color: #318ac5d7 !important;
-  border-color: #2d58b3d7 !important;
-  box-shadow: 
-      0 0 6px rgba(106, 172, 196, 0.92),
-      0 0 30px rgba(80, 143, 172, 0.34),
-      0 0 12px rgba(57, 148, 143, 0.52),
-      0 0 21px rgba(5, 46, 121, 0.57),
-      0 0 34px rgba(71, 122, 151, 0.78),
-      0 0 54px rgba(7, 114, 118, 0.92);
-}
-.btn:focus {
-  outline: none !important;
-  box-shadow: none !important;
-}
 .project-heading {
   color: white !important;
   font-size: 2.3em !important;
@@ -596,12 +624,15 @@ to {
 
 .tech-icons {
   font-size: 4.5em !important;
-  margin: 15px !important;
+  margin: 5px !important;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(13, 95, 94, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 2px !important;
+  -webkit-transform: scaleY(0.5) rotate(-45deg);
+  -ms-transform: scaleY(0.5) rotate(-45deg);
+  transform: scaleY(0.5) rotate(-45deg);
   display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;

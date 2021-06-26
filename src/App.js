@@ -11,6 +11,20 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ScrollToTop from "./components/ScrollToTop";
+import TagManager from "react-gtm-module";
+
+
+const tagManagerArgs = {
+  gtmId: 'GTM-MVMWSDN'
+}
+
+TagManager.initialize(tagManagerArgs)
+TagManager.dataLayer({
+  dataLayer: {
+    event: 'pageview',
+    path: '/home/'
+  }
+})
 
 
 function App() {
