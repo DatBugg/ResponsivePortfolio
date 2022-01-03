@@ -11,9 +11,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ScrollToTop from "./components/ScrollToTop";
-import TagManager from "react-gtm-module";
+import useOptimizeAB from "./components/optimize";
+import Sidebar from "./components/Sidebar";
+//import TagManager from "react-gtm-module";
 
 
+/*
 const tagManagerArgs = {
   gtmId: 'GTM-MVMWSDN'
 }
@@ -25,7 +28,7 @@ TagManager.dataLayer({
     path: '/home/'
   }
 })
-
+*/
 
 function App() {
   const [load, upadateLoad] = useState(true);

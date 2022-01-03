@@ -37,6 +37,7 @@ to {
 /* --------- */
 /*  Preloader */
 /* --------- */
+
 #preloader {
   position: fixed;
   top: 0;
@@ -68,7 +69,7 @@ to {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: linear-gradient(1turn,  #32023c, #32023c);
+  background: linear-gradient(1turn,  #230629, #2a0331);
 }
 
 /* Handle */
@@ -250,7 +251,7 @@ to {
   left: 0;
   width: 100%;
   height: 100%;  
-  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.25);
   filter: blur(1.5em);
   opacity: 0.5;
 }
@@ -304,7 +305,7 @@ to {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 7rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -420,7 +421,8 @@ to {
 /* --------- */
 
 .sidebar{
-  width: 5px;
+  width: 50px;
+  height: 100%;
 }
 
 .home-about-social {
@@ -547,7 +549,7 @@ to {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px  rgba(194, 219, 252, 0.459) !important;
+  box-shadow: 0 0px 2px 2px  rgba(194, 219, 252, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -557,7 +559,7 @@ to {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(7, 135, 158, 0.561) !important;
+  box-shadow: 0 2px 4px 3px rgba(7, 135, 158, 0.561) !important;
 }
 
 .blog-card {
@@ -588,7 +590,7 @@ to {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+  box-shadow: 0 2px 2px 4px rgba(99, 28, 81, 0.459) !important;
 }
 
 .card-img-top {

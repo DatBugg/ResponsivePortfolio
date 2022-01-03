@@ -13,6 +13,11 @@ function AboutCard() {
             from <span className="purple"> Argentina.</span>
             <br />
             <br />
+            I am currently a <span className="purple">cloud engineer </span>at a media agency.
+            <br />
+            And recently started write articles on <span className="purple">medium</span>.
+            <br />
+            <br />
             <br />
             Some of my hobbies and passions
           </p>
@@ -45,7 +50,6 @@ function AboutCard() {
               <i class="fas fa-dumbbell"></i> Calisthenic
             </li>
           </ul>
-
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "Never stop <span className="purple"> learning</span>."{" "}
           </p>

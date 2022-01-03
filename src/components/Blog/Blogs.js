@@ -6,6 +6,8 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import arch from "../../Assets/Projects/arch.png";
 import corne from "../../Assets/Projects/corne.png";
+import gcp from "../../Assets/Projects/gcp.jpg";
+import notion from "../../Assets/Projects/notion.jpg";
 
 function Projects() {
   return (
@@ -20,7 +22,7 @@ function Projects() {
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={arch}
-              link=""
+              link="https://github.com/DatBugg/Arch-Qtile"
               title="Arch-Linux"
               description="Step-by-step implementation of Arch-Linux."
               site="https://github.com/DatBugg/Arch-Qtile"
@@ -29,10 +31,28 @@ function Projects() {
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={corne}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
+              link="https://github.com/DatBugg/Corne-Keyboard"
               title="Corne Keyboard"
               description="Mechanical keyboard assembly and layout customization."
               site="https://github.com/DatBugg/Corne-Keyboard"
+            />
+          </Col>
+          <Col md={4} className="blog-card">
+            <BlogCard
+              imgPath={gcp}
+              link="https://medium.com/@gonzagalante/699129f772a6"
+              title="Google Cloud Platform Basics"
+              description="How starting in GCP without knowledge."
+              site="https://medium.com/@gonzagalante/699129f772a6"
+            />
+          </Col>
+          <Col md={4} className="blog-card">
+            <BlogCard
+              imgPath={notion}
+              link=""
+              title="Notion for Programmers and SRE"
+              description="Building"
+              site=""
             />
           </Col>
         </Row>

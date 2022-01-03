@@ -81,7 +81,7 @@ function NavBar() {
             
           </Nav>
           <Nav.Item>
-              <Button variant="primary" href={cv} target="_blank">
+              <Button className="btn_cv" variant="primary" href={cv} target="_blank">
                 CV
               </Button>
             </Nav.Item>

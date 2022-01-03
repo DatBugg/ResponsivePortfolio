@@ -15,10 +15,10 @@ function Home2() {
             <p className="home-about-body">
               I fell in love with 
               <i>
-                <b className="purple"> Programming. </b>
+                <b className="purple"> Programming and Data Architecture. </b>
               </i>
               <br />
-              <br />I recently finished my studies as a
+              <br />In 2021 i finished my studies as a
               <i>
                 <b className="purple"> Data Scientist. </b>
               </i>
@@ -27,7 +27,7 @@ function Home2() {
               My current focus is on &nbsp;
               <i>
                 <b className="purple">
-                  Data Engineer, Big Data and ETL.
+                  Data Engineering, Cloud Engineering and ETL process.
                 </b>
               </i>
               <br />
