@@ -6,11 +6,8 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.svg";
-import useOptimizeAB from "../optimize";
-import React, { useEffect } from "react";
 
 function About() {
-    useOptimizeAB("OPT-M54XPLK")
 
 
   return (

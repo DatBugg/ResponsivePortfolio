@@ -11,9 +11,6 @@
 ![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)
 <br/>
 
-<div align="center">
-  <img alt="DHLogo" src="./src/Assets/logo.png"  width="300" height="100" />
-</div>
 
 <div align="center">
 <a href="https://www.datbugg.com" target="_blank">datbugg.com</a>
